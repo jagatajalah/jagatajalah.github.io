@@ -1,0 +1,94 @@
+  /* CSS untuk halaman buatakun.php */
+  body {
+    font-family: Georgia, serif; /* Font yang cocok dengan nuansa sejarah */
+    background-color: #f2e7d7; /* Warna latar belakang yang lembut */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ae5a41; /* Warna teks judul yang cocok dengan nuansa sejarah */
+}
+
+.subheadline {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #221313; /* Warna teks yang sama dengan halaman masuk.php */
+}
+
+.login-box {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.input-box {
+    margin-bottom: 20px; /* Menambahkan ruang antara input fields */
+}
+
+.input-box input[type="text"],
+.input-box input[type="email"],
+.input-box input[type="password"] {
+    padding: 15px;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    width: 100%;
+    font-family: Georgia, serif; /* Font yang cocok dengan nuansa sejarah */
+    font-size: 16px;
+    margin-bottom: 10px; /* Menambahkan ruang antara input fields */
+    box-sizing: border-box; /* Mencegah input fields terlalu lebar */
+}
+
+.input-box input[type="text"]:focus,
+.input-box input[type="email"]:focus,
+.input-box input[type="password"]:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+.input-submit button[type="submit"] {
+    padding: 15px;
+    border: none;
+    background-color: #ae5a41;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    font-family: Georgia, serif; /* Font yang cocok dengan nuansa sejarah */
+    font-size: 18px; /* Ukuran font yang lebih besar */
+    transition: background-color 0.3s ease; /* Efek transisi pada hover */
+}
+
+.input-submit button[type="submit"]:hover {
+    background-color: #954536;
+}
+
+.sign-up-link a {
+    color: #221313; /* Warna teks tautan yang sama dengan halaman masuk.php */
+    text-decoration: none;
+}
+
+.sign-up-link a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}

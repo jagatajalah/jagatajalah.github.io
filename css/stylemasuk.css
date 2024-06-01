@@ -1,0 +1,87 @@
+body {
+    font-family: Georgia, serif; /* Font yang cocok dengan nuansa sejarah */
+    background-color: #f2e7d7; /* Warna latar belakang yang lembut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    padding: 40px;
+    background-color: #ffffff; /* Ubah warna latar belakang menjadi putih */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.container h2 {
+    text-align: center;
+    color: #ae5a41; /* Warna teks judul yang cocok dengan nuansa sejarah */
+    margin-bottom: 20px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #221313; /* Warna teks label yang kontras */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #ae5a41;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #954536;
+}
+
+p {
+    text-align: center;
+    color: #221313;
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    color: #221313;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
